@@ -1,0 +1,1262 @@
+/* css reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    background-color:#000;
+
+    z-index:12;
+}
+
+
+/* styling the main section where diffrent divs will be set */
+.background-divs-section{
+    position:relative;
+    width:500px;
+    height:1000px;
+
+    z-index:9;
+}
+
+
+/* first background - Pink(chicken burger) */
+.first-background-div{
+    position:relative;
+    width:500px;
+    height:1000px;
+
+    
+}
+
+/* img - pink background with chicken manu */
+.chiken-burger-bck{
+    position:relative;
+    
+    z-index:10;
+
+    
+}
+
+/* chicken burger manu */
+.chicken-burger{
+    position:absolute;
+    left:0%;
+    z-index:11;
+
+}
+
+/* price1 - 8.90 waren... */
+.pirce1-890{
+    position:absolute;
+    left:0%;
+    top:12%;
+
+    z-index:10;
+
+    animation-name:appearingPrice1;
+    animation-duration:2s;
+    opacity:0;
+    
+}
+
+/* red stripe */
+.red-stripe{
+    position:absolute;
+    right:0%;
+    left:56%;
+    top:25%;
+
+    z-index:10;
+    animation-name:appearingRedStripe;
+    animation-duration:4s;
+    transition: linear;
+    opacity:0;
+   
+}
+
+/* blue stripe */
+.blue-stripe{
+    position:absolute;
+    right:0%;
+    left:55%;
+    top:25%;
+
+    z-index:10;
+
+    animation-name:appearingBlueStripe;
+    animation-duration:4s;
+    transition: linear;
+    opacity:0;
+ 
+}
+
+/* yellow stripe */
+.yellow-stripe{
+    position:absolute;
+    right:0%;
+    left:54.3%;
+    top:25%;
+
+    z-index:10;
+    animation-name:appearingYellowStripe;
+    animation-duration:4s;
+    transition: linear;
+    opacity:0;
+   
+}
+
+/* green stripe */
+.green-stripe{
+    position:absolute;
+    right:0%;
+    left:55.5%;
+    top:25%;
+
+    z-index:10;
+    animation-name:appearingGreenStripe;
+    animation-duration:4s;
+    transition: linear;
+    opacity:0;
+
+ 
+}
+
+/* text2 - big bang */
+.big-bang{
+    position:absolute;
+    right:59%;
+    top:20%;
+
+    z-index:10;
+   
+    animation-name:appearingBigBang;
+    animation-delay:2s;
+    animation-duration:2s;
+
+    opacity:0;
+   
+}
+
+/* text3 - price(8.90) - ONLY PRICE */
+.text3-Price-890{
+    position:absolute;
+    top:38%;
+    right:60%;
+
+    z-index:10;
+    animation-name:appearingOnlyPrice;
+    animation-delay:2s;
+    animation-duration:2s;
+    
+    opacity:0;
+ 
+}
+
+/* text - chickenPaprika */
+.chicken-paprika{
+    position:absolute;
+    top:68%;
+    right:19%;
+
+    z-index:10;
+    animation-name:appearingPaprika;
+    animation-delay:3s;
+    animation-duration:1s;
+    opacity:0;
+    
+
+}
+/* MAC - logo */
+.footer-logo{
+    position:absolute;
+    right:0%;
+
+    z-index:11;
+    
+    animation-name:appearingLogo;
+    animation-duration:4s;
+    opacity:0.3;
+    
+}
+
+
+@keyframes appearingLogo{
+    0%{
+        opacity:0.3;
+    }
+
+    20%{
+        opacity:1;
+    }
+
+    100%{
+        opacity:1;
+    }
+}
+
+
+@keyframes appearingPrice1{
+
+    0%{
+        opacity:0;
+        transform:scale(0);
+    }
+
+    20%{
+        opacity:0;
+        transform:scale(0);
+    }
+
+    40%{
+        opacity:1;
+        transform:scale(1);
+    }
+
+    90%{
+        opacity:1;
+        transform:scale(1);
+    }
+
+    100%{
+        transform:scale(0.5);
+        opacity:0;
+    }
+}
+
+@keyframes appearingRedStripe{
+
+    0%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+
+    15%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+
+    30%{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes appearingBlueStripe{
+    0%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+    
+    20%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+
+    35%{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+
+    
+}
+
+@keyframes appearingYellowStripe{
+    0%{
+        opacity:0;
+        transform:translateX(-92px);
+    }
+
+    25%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+
+    40%{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes appearingGreenStripe{
+
+    0%{
+        opacity:0;
+        transform:translateX(-95px);
+    }
+
+    30%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+
+    
+    45%{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes appearingBigBang{
+    0%{
+        opacity:0;
+        transform:scale(0);
+    }
+
+    20%{
+        opacity:0;
+        transform:scale(0);
+    }
+
+    40%{
+        opacity:1;
+        transform:scale(1);
+    }
+
+    90%{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+
+@keyframes appearingOnlyPrice{
+    0%{
+        opacity:0;
+        transform:scale(0);
+    }
+
+    20%{
+        opacity:0;
+        transform:scale(0);
+    }
+
+    40%{
+        opacity:1;
+        transform:scale(1);
+    }
+
+    90%{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+
+@keyframes appearingPaprika{
+    0%{
+        opacity:0;
+        transform:scale(0);
+    }
+
+    20%{
+        opacity:1;
+        transform:scale(1);
+    }
+    80%{
+        opacity:1;
+        transform:scale(1);
+    }
+
+    100%{
+        opacity:0;
+        transform:scale(0);
+    }
+}
+
+/*************Second Div******************/
+.second-background-div{
+    width:500px;
+    height:1000px;
+
+    animation-name:appearingSecondDiv;
+    animation-delay:4s;
+    animation-duration:2s;
+    display:none;
+
+}
+
+/*div2 -  blue background  */
+.blue-back{
+    position:relative;
+
+
+    z-index:10;
+
+    animation-name:appearingBlueBack;
+    animation-delay:4s;
+    animation-duration:2s;
+}
+
+/* cheese burger manu  */
+.cheese-burger{
+    position:absolute;
+    right:0%;
+
+    z-index:11;
+}
+
+/*text - big bang mac... */
+.big-bang-bg2{
+    position:absolute;
+    top:18%;
+    right:59%;
+
+
+    z-index:10;
+
+    animation-name:appearingBigBangBg2;
+
+    animation-duration:2s;
+    opacity:1;
+    
+}
+
+
+.only-price-bg2{
+    position:absolute;
+    right:60%;
+    top:38%;
+    
+    z-index:10;
+
+}
+
+
+.red-stripe-bg2{
+    position:absolute;
+    right:0%;
+    left:56%;
+    top:25%;
+
+    z-index:10;
+
+    animation-name:appearingRedSrtipeBg2;
+    animation-duration:2s;
+    opacity:0;
+ 
+}
+
+.blue-stripe-bg2{
+    position:absolute;
+    right:0%;
+    left:56%;
+    top:25%;
+
+    z-index:10;
+    animation-name:appearingBlueStripeBg2;
+    animation-duration:2s;
+    opacity:0;
+ 
+}
+
+.yellow-stripe-bg2{
+    position:absolute;
+    right:0%;
+    left:54.5%;
+    top:25%;
+
+    z-index:10;
+    animation-name:appearingYellowStripeBg2;
+    animation-duration:2s;
+    opacity:0;
+   
+}
+
+.green-stripe-bg2{
+    position:absolute;
+    right:0%;
+    left:56%;
+    top:25%;
+
+    z-index:10;  
+    animation-name:appearingGreenStripeBg2;
+    animation-duration:2s;
+    opacity:0;
+  
+}
+
+.double-cheeseburger{
+    position:absolute;
+    top:68%;
+    right:5%;
+    z-index:10;
+
+    animation-name:appearingCheeseBurgerText;
+    animation-duration:1s;
+    animation-delay:1s;
+    opacity:0;
+    
+}
+
+.footer-logo-bg2{
+    position:absolute;
+    right:0%;
+    z-index:10;
+
+}
+@keyframes appearingBigBangBg2{
+    0%{
+        opacity:1;
+        visibility: visible;
+        transform: scale(1);
+    }
+
+    10%{
+        opacity:1;
+        visibility: visible;
+        transform: scale(1.2);
+    }
+
+    20%{
+        opacity:1;
+        transform: scale(1);
+    }
+
+    100%{
+        opacity:1;
+        transform: scale(1);
+    }
+}
+
+@keyframes appearingRedSrtipeBg2{
+    0%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+
+    20%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+
+    40%{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes appearingBlueStripeBg2{
+    0%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+    
+    30%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+
+    50%{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes appearingYellowStripeBg2{
+    0%{
+        opacity:0;
+        transform:translateX(-92px);
+    }
+
+    40%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+
+    60%{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes appearingGreenStripeBg2{
+    0%{
+        opacity:0;
+        transform:translateX(-95px);
+    }
+
+    50%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+
+    70%{
+        opacity:1;
+        transform:translateX(0);
+    }
+ 
+
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes appearingCheeseBurgerText{
+    0%{
+        opacity:0;
+        transform:translateY(30px)
+    }
+
+    50%{
+        opacity:0;
+        transform:translateY(30px)
+    }
+
+
+    60%{
+        
+        opacity:1;
+        transform:translateY(0)
+    }
+
+    100%{
+        opacity:1;
+        transform:translateX(0px)
+    }
+}
+
+
+/****************third background div ***************/
+.third-background-div{
+    width:500px;
+    height:1000px;
+    display:none;
+}
+
+.green-back{
+    position:relative;
+    z-index:10;
+}
+
+.fish-burger-manu{
+    position:absolute;
+    right:0%;
+
+    z-index:11;
+}
+
+.big-bang-bg3{
+    position:absolute;
+    right:60.5%;
+    top:19%;
+    z-index:10;
+
+    animation-name:appearingBigBangBg3;
+    animation-duration:2s;
+   
+}
+
+.price3-890{
+    position:absolute;
+    right:60%;
+    top:37%;
+
+
+    z-index:10;
+   
+}
+
+.red-stripe-bg3{
+    position:absolute;
+    top:25%;
+    right:0%;
+    left:58%;
+
+    z-index:10;
+    animation-name:appearingRedStripeBg3;
+    animation-duration:2s;
+    opacity:0;
+
+}
+
+.blue-stripe-bg3{
+    position:absolute;
+    top:25%;
+    right:0%;
+    left:57%;
+
+    z-index:10;
+    animation-name:appearingBlueStripeBg3;
+    animation-duration:2s;
+    opacity:0;
+  
+}
+
+.yellow-stripe-bg3{
+    position:absolute;
+    top:25%;
+    right:0%;
+    left:54%;
+
+    z-index:10;
+    animation-name:appearingYellowStripeBg3;
+    animation-duration:2s;
+    opacity:0;
+    
+}
+
+.green-strippe-bg3{
+    position:absolute;
+    top:25%;
+    right:0%;
+    left:56%;
+
+    z-index:10;
+
+    animation-name:appearingGreenStripeBg3;
+    animation-duration:2s;
+    opacity:0;
+}
+
+.filet-o-fish-text{
+    position:absolute;
+    top:68%;
+    right:20%;
+
+    z-index:10;
+
+    animation-name:appearingFiletOFish;
+    animation-delay:1s;
+    animation-duration:1s;
+    opacity:0;
+  
+}
+
+.footer-logo-bg3{
+    position:absolute;
+    right:0%;
+    z-index:10;
+
+}
+@keyframes appearingBigBangBg3{
+    0%{
+        opacity:1;
+        visibility: visible;
+        transform: scale(1);
+    }
+
+    10%{
+        opacity:1;
+        visibility: visible;
+        transform: scale(1.2);
+    }
+
+    20%{
+        opacity:1;
+        transform: scale(1);
+    }
+
+    100%{
+        opacity:1;
+        transform: scale(1);
+    }
+}
+
+@keyframes appearingRedStripeBg3{
+    0%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+
+    10%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+
+    40%{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes appearingBlueStripeBg3{
+    0%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+    
+    20%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+
+    40%{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes appearingYellowStripeBg3{
+    0%{
+        opacity:0;
+        transform:translateX(-92px);
+    }
+
+    30%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+
+    40%{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes appearingGreenStripeBg3{
+    0%{
+        opacity:0;
+        transform:translateX(-95px);
+    }
+
+    40%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+
+    50%{
+        opacity:1;
+        transform:translateX(0);
+    }
+ 
+
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes appearingFiletOFish{
+    0%{
+        opacity:0;
+        transform:translateY(20px);
+    }
+
+    50%{
+        opacity:0;
+        transform:translateY(20px);
+ 
+    }
+
+
+    70%{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+    100%{
+        opacity:1;
+        transform:translateY(0px);
+    }
+}
+
+/**************Forth background div********************/
+.forth-background-div{
+    width:500px;
+    height:1000px;
+    z-index:9;
+    display:none;
+}
+
+.green-back-bg4{
+    position:relative;
+
+    z-index:10;
+}
+
+.big-bang-bg4{
+    position:absolute;
+    right:5%;
+    top:2%;
+
+    z-index:11;
+    animation-name: appearingBigBangBg4;
+    animation-duration:3s;
+    transition: linear;
+    opacity:0;
+}
+
+.jetz-bg4{
+    position:absolute;
+    top:5%;
+    right:0%;
+    z-index:11;
+
+    animation-name:appearingJetzBg4;
+    animation-duration:3s;
+    opacity:0;
+    
+}
+
+.footer-logo-bg4{
+    position:absolute;
+    right:0%;
+
+    z-index:10;
+
+
+}
+
+@keyframes appearingBigBangBg4{
+    0%{
+        opacity:0;
+        transform:scale(0)
+    }
+
+    20%{
+        opacity:1;
+        transform:scale(1)
+    }
+
+    100%{
+        opacity:1;
+        transform:scale(1)
+    }
+}
+
+
+@keyframes appearingJetzBg4{
+    0%{
+        opacity:0;
+        transform:translateX(180px);
+       
+    }
+
+    20%{
+        opacity:1;
+        transform:translateX(0px);
+        transform:scale(1)
+    }
+
+    50%{
+        opacity:1;
+        transform:translateX(0px);
+        transform:scale(1)
+    }
+
+    60%{
+        opacity:1;
+        transform:translateX(0px);
+        transform:scale(0.9)
+
+    }
+
+    70%{
+        opacity:1;
+        transform:translateX(0px);
+        transform:scale(1)
+    }
+
+  
+    80%{
+        opacity:1;
+        transform:translateX(0px);
+        transform:scale(0.9)
+    }
+
+
+    90%{
+        opacity:1;
+        transform:translateX(0px);
+        transform:scale(1)
+    }
+
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+        transform:scale(1)
+    }
+}
+
+/***************Fifth background div************/
+.fifth-background-div{
+    width:500px;
+    height:1000px;
+
+    display:none;
+}
+
+.pink-background-bg5{
+    position:relative;
+
+    z-index:10;
+}
+
+.chiken-burger-bg5{
+    position:absolute;
+    right:0%;
+
+    z-index:11;
+}
+
+.pirce1-890-bg5{
+    position:absolute;
+    left:0%;
+    top:12%;
+
+    z-index:10;
+
+    animation-name:appearingPirce1890Bg5;
+    animation-duration:2s;
+    opacity:0;
+
+}
+
+.red-stripe-bg5{
+    position:absolute;
+    right:0%;
+    left:56%;
+    top:25%;
+
+    z-index:10;
+    animation-name: appearingRedStripeBg5;
+    animation-duration:2s;
+    opacity:0;
+
+}
+
+.blue-stripe-bg5{
+    position:absolute;
+    right:0%;
+    left:55%;
+    top:25%;
+
+    z-index:10;
+
+    animation-name:appearingBlueStripeBg5;
+    animation-duration:2s;
+    opacity:0;
+ 
+}
+
+.yellow-stripe-bg5{
+    position:absolute;
+    right:0%;
+    left:54.3%;
+    top:25%;
+
+    z-index:10;
+
+    animation-name:appearingYellowStripeBg5;
+    animation-duration:2s;
+    opacity:0;
+
+}
+
+.green-stripe-bg5{
+    position:absolute;
+    right:0%;
+    left:55.5%;
+    top:25%;
+
+    z-index:10;
+
+    animation-name:appearingGreenStripeBg5;
+    animation-duration:2s;
+    opacity:0;
+
+}
+
+.footer-logo-bg5{
+    position:absolute;
+    right:0%;
+
+    z-index:11;
+
+    animation-name:appearingLogoBg5;
+    animation-duration:2s;
+    opacity:0.3;
+    
+}
+
+
+@keyframes appearingPirce1890Bg5{
+    0%{
+        opacity:0;
+        transform:scale(0);
+    }
+
+    20%{
+        opacity:0;
+        transform:scale(0);
+    }
+
+    40%{
+        opacity:1;
+        transform:scale(1);
+    }
+
+    90%{
+        opacity:1;
+        transform:scale(1);
+    }
+
+    100%{
+        transform:scale(0.5);
+        opacity:0;
+    }
+}
+
+
+@keyframes appearingRedStripeBg5{
+  
+    0%{
+        opacity:0;
+        transform:translateX(-90px);
+    }
+
+    
+    40%{
+        opacity:0;
+        transform:translateX(-90px);
+    }
+
+    50%{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes appearingBlueStripeBg5{
+    0%{
+        opacity:0;
+        transform:translateX(-90px);
+    }
+
+    
+    40%{
+        opacity:0;
+        transform:translateX(-90px);
+    }
+
+    70%{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes appearingYellowStripeBg5{
+    0%{
+        opacity:0;
+        transform:translateX(-90px);
+    }
+
+    
+    50%{
+        opacity:0;
+        transform:translateX(-90px);
+    }
+
+    80%{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes appearingGreenStripeBg5{
+    0%{
+        opacity:0;
+        transform:translateX(-90px);
+    }
+
+    
+    60%{
+        opacity:0;
+        transform:translateX(-90px);
+    }
+
+    80%{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes appearingLogoBg5{
+    0%{
+        opacity:0.3;
+    }
+
+    50%{
+        opacity:1;
+    }
+
+    100%{
+        opacity:1;
+    }
+}

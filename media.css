@@ -1,0 +1,1327 @@
+@media(min-width:230px){
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .background-divs-section{
+        width:100%;
+        height:auto;
+    
+    }
+
+    .first-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .chiken-burger-bck{
+        width:100%;
+        height:auto;
+    }
+   
+    .chicken-burger,.pirce1-890,.footer-logo{
+        min-width:10rem;
+        max-width:100%;
+      
+    }
+
+    .red-stripe,.blue-stripe,.yellow-stripe,.green-stripe,.chicken-paprika{
+        width:100%;
+        max-width:7rem;
+    }
+
+    .big-bang,.text3-Price-890{
+        width:100%;
+        max-width:6rem;
+    }
+
+    .text3-Price-890{
+        width:100%;
+        max-width:5.5rem;
+    }
+
+    /* second background div */
+    .second-background-div{
+        width:100%;
+        height:auto;
+    }
+    
+    .blue-back{
+        width:100%;
+        height:auto;
+    }
+
+    .cheese-burger,.footer-logo-bg2{
+        min-width:10rem;
+        max-width:100%;
+    }
+    
+    .big-bang-bg2{
+        width:100%;
+        max-width:6rem;
+        top:18%;
+        right:58%;
+    }
+
+    .only-price-bg2{
+        width:100%;
+        max-width:5rem;
+    }
+
+    .red-stripe-bg2,.blue-stripe-bg2,.yellow-stripe-bg2,.green-stripe-bg2{
+        width:100%;
+        max-width:7rem;
+    }
+
+    .double-cheeseburger{
+        width:100;
+        max-width:12rem;
+    }
+
+    /* third background */
+
+    .third-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .green-back{
+        width:100%;
+        height:auto;
+    }
+
+    .fish-burger-manu{
+        min-width:10rem;
+        max-width:100%;
+      
+    }
+
+    .big-bang-bg3{
+        width:100%;
+        max-width:6rem;
+    }
+
+    .price3-890{
+        width:100%;
+        max-width:5.3rem;
+    }
+
+    .red-stripe-bg3,.blue-stripe-bg3,.yellow-stripe-bg3,.green-strippe-bg3{
+        width:100%;
+        max-width:6.5rem;
+    }
+
+    .filet-o-fish-text{
+        width:100%;
+        max-width:7rem;
+    }
+
+    .footer-logo-bg3{
+        min-width:10rem;
+        max-width:100%;
+    }
+
+    /* forth background div */
+    .forth-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .green-back-bg4{
+        width:100%;
+        height:auto;
+    }
+
+    .big-bang-bg4{
+        width:100%;
+        max-width:15rem;
+    }
+
+    .jetz-bg4{
+        width:100%;
+        max-width:14rem;
+    }
+
+    .footer-logo-bg4{
+        min-width:11rem;
+        max-width:100%;
+    }
+
+    /* fifth background */
+    .fifth-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .pink-background-bg5{
+        width:100%;
+        height:auto;
+    }
+
+    .chiken-burger-bg5{
+        min-width:10rem;
+        max-width:100%;
+    }
+
+    .pirce1-890-bg5 , .footer-logo-bg5{
+        min-width:10rem;
+        max-width:100%;
+    }
+
+    .red-stripe-bg5,.blue-stripe-bg5,.yellow-stripe-bg5,.green-stripe-bg5{
+        width:100%;
+        max-width:6rem;
+    }
+}
+
+@media(min-width:280px){
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .background-divs-section{
+        width:100%;
+        height:auto;
+    }
+
+    .first-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .chiken-burger-bck{
+        width:100%;
+        height:auto;
+    }
+   
+
+    .first-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .chiken-burger-bck{
+        width:100%;
+        height:auto;
+    }
+   
+    .chicken-burger,.pirce1-890,.footer-logo{
+        width:100%;
+        min-width:7rem;
+    }
+
+    .red-stripe,.blue-stripe,.yellow-stripe,.green-stripe,.chicken-paprika{
+        width:100%;
+        max-width:8.5rem;
+    }
+
+    .big-bang,.text3-Price-890{
+        width:100%;
+        max-width:8rem;
+    }
+
+    .text3-Price-890{
+        width:100%;
+        max-width:7rem;
+    }
+
+     /* second background div */
+     .second-background-div{
+        width:100%;
+        height:auto;
+    }
+    
+    .blue-back{
+        width:100%;
+        height:auto;
+    }
+
+    .cheese-burger,.footer-logo-bg2{
+        min-width:11rem;
+        max-width:100%;
+    }
+    
+    .big-bang-bg2{
+        width:100%;
+        max-width:7.5rem;
+        top:18%;
+        right:58%;
+    }
+
+    .only-price-bg2{
+        width:100%;
+        max-width:6rem;
+    }
+
+    .red-stripe-bg2,.blue-stripe-bg2,.yellow-stripe-bg2,.green-stripe-bg2{
+        width:100%;
+        max-width:7rem;
+    }
+
+    .double-cheeseburger{
+        width:100;
+        max-width:14rem;
+    }
+
+    
+    /* third background */
+
+    .third-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .green-back{
+        width:100%;
+        height:auto;
+    }
+
+    .fish-burger-manu{
+        min-width:10rem;
+        max-width:100%;
+      
+    }
+
+    .big-bang-bg3{
+        width:100%;
+        max-width:7.3rem;
+    }
+
+    .price3-890{
+        width:100%;
+        max-width:6.3rem;
+    }
+
+    .red-stripe-bg3,.blue-stripe-bg3,.yellow-stripe-bg3,.green-strippe-bg3{
+        width:100%;
+        max-width:7.9rem;
+    }
+
+    .filet-o-fish-text{
+        width:100%;
+        max-width:9rem;
+    }
+
+    .footer-logo-bg3{
+        min-width:10rem;
+        max-width:100%;
+    }
+
+    /* forth background div */
+    .forth-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .green-back-bg4{
+        width:100%;
+        height:auto;
+    }
+
+    .big-bang-bg4{
+        width:100%;
+        max-width:17rem;
+    }
+
+    .jetz-bg4{
+        width:100%;
+        max-width:17rem;
+    }
+
+    .footer-logo-bg4{
+        min-width:16rem;
+        max-width:100%;
+    }
+
+    /* fifth background */
+    .fifth-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .pink-background-bg5{
+        width:100%;
+        height:auto;
+    }
+
+    .chiken-burger-bg5{
+        min-width:10rem;
+        max-width:100%;
+    }
+
+    .pirce1-890-bg5 , .footer-logo-bg5{
+        min-width:10rem;
+        max-width:100%;
+    }
+
+    .red-stripe-bg5,.blue-stripe-bg5,.yellow-stripe-bg5,.green-stripe-bg5{
+        width:100%;
+        max-width:8rem;
+    }
+}
+
+
+
+
+@media(min-width:330px){
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .background-divs-section{
+        width:100%;
+        height:auto;
+    }
+
+    .first-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .chiken-burger-bck{
+        width:100%;
+        height:auto;
+    }
+
+    .first-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .chiken-burger-bck{
+        width:100%;
+        height:auto;
+    }
+   
+    .chicken-burger,.pirce1-890,.footer-logo{
+        width:100%;
+  
+    }
+
+    .red-stripe,.blue-stripe,.yellow-stripe,.green-stripe{
+        width:100%;
+        max-width:9.5rem;
+    }
+
+    .big-bang,.text3-Price-890{
+        width:100%;
+        max-width:8.5rem;
+    }
+
+    .text3-Price-890{
+        width:100%;
+        max-width:7.5rem;
+    }
+
+    .chicken-paprika{
+        width:100%;
+        max-width:12rem;
+    }
+
+    /* second background div */
+    .second-background-div{
+        width:100%;
+        height:auto;
+    }
+    
+    .blue-back{
+        width:100%;
+        height:auto;
+    }
+
+    .cheese-burger,.footer-logo-bg2{
+        min-width:11rem;
+        max-width:100%;
+    }
+    
+    .big-bang-bg2{
+        width:100%;
+        max-width:8.5rem;
+        top:18%;
+        right:58%;
+    }
+
+    .only-price-bg2{
+        width:100%;
+        max-width:7.1rem;
+    }
+
+    .red-stripe-bg2,.blue-stripe-bg2,.yellow-stripe-bg2,.green-stripe-bg2{
+        width:100%;
+        max-width:9rem;
+    }
+
+    .double-cheeseburger{
+        width:100;
+        max-width:17rem;
+    }
+
+
+      /* third background */
+
+    .third-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .green-back{
+        width:100%;
+        height:auto;
+    }
+
+    .fish-burger-manu{
+        min-width:10rem;
+        max-width:100%;
+      
+    }
+
+    .big-bang-bg3{
+        width:100%;
+        max-width:8.5rem;
+    }
+
+    .price3-890{
+        width:100%;
+        max-width:7.3rem;
+    }
+
+    .red-stripe-bg3,.blue-stripe-bg3,.yellow-stripe-bg3,.green-strippe-bg3{
+        width:100%;
+        max-width:9.5rem;
+    }
+
+    .filet-o-fish-text{
+        width:100%;
+        max-width:11rem;
+    }
+
+    .footer-logo-bg3{
+        min-width:10rem;
+        max-width:100%;
+    }
+
+    /* forth background div */
+    .forth-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .green-back-bg4{
+        width:100%;
+        height:auto;
+    }
+
+    .big-bang-bg4{
+        width:100%;
+        max-width:20rem;
+    }
+
+    .jetz-bg4{
+        width:100%;
+        max-width:20rem;
+    }
+
+    .footer-logo-bg4{
+        min-width:20rem;
+        max-width:100%;
+    }
+
+    /* fifth background */
+    .fifth-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .pink-background-bg5{
+        width:100%;
+        height:auto;
+    }
+
+    .chiken-burger-bg5{
+        min-width:10rem;
+        max-width:100%;
+    }
+
+    .pirce1-890-bg5 , .footer-logo-bg5{
+        min-width:10rem;
+        max-width:100%;
+    }
+
+    .red-stripe-bg5,.blue-stripe-bg5,.yellow-stripe-bg5,.green-stripe-bg5{
+        width:100%;
+        max-width:10rem;
+    }
+}
+
+
+@media(min-width:380px){
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .background-divs-section{
+        width:100%;
+        height:auto;
+    }
+
+    .first-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .chiken-burger-bck{
+        width:100%;
+        height:auto;
+    }
+
+    .first-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .chiken-burger-bck{
+        width:100%;
+        height:auto;
+    }
+   
+    .chicken-burger,.pirce1-890,.footer-logo{
+        width:100%;
+  
+    }
+
+    .red-stripe,.blue-stripe,.yellow-stripe,.green-stripe{
+        width:100%;
+        max-width:11rem;
+    }
+
+    .big-bang,.text3-Price-890{
+        width:100%;
+        max-width:9.5rem;
+    }
+
+    .text3-Price-890{
+        width:100%;
+        max-width:8.5rem;
+    }
+
+    .chicken-paprika{
+        width:100%;
+        max-width:12rem;
+    }
+
+    /* second background div */
+    .second-background-div{
+        width:100%;
+        height:auto;
+    }
+    
+    .blue-back{
+        width:100%;
+        height:auto;
+    }
+
+    .cheese-burger,.footer-logo-bg2{
+        min-width:11rem;
+        max-width:100%;
+    }
+    
+    .big-bang-bg2{
+        width:100%;
+        max-width:10rem;
+        top:18%;
+        right:58%;
+    }
+
+    .only-price-bg2{
+        width:100%;
+        max-width:8.5rem;
+    }
+
+    .red-stripe-bg2,.blue-stripe-bg2,.yellow-stripe-bg2,.green-stripe-bg2{
+        width:100%;
+        max-width:10.7rem;
+    }
+
+    .double-cheeseburger{
+        width:auto;
+        max-width:none;
+    }
+
+     /* third background */
+
+    .third-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .green-back{
+        width:100%;
+        height:auto;
+    }
+
+    .fish-burger-manu{
+        min-width:10rem;
+        max-width:100%;
+      
+    }
+
+    .big-bang-bg3{
+        width:100%;
+        max-width:9.7rem;
+    }
+
+    .price3-890{
+        width:100%;
+        max-width:8.2rem;
+    }
+
+    .red-stripe-bg3,.blue-stripe-bg3,.yellow-stripe-bg3,.green-strippe-bg3{
+        width:100%;
+        max-width:10.7rem;
+    }
+
+    .filet-o-fish-text{
+        width:auto;
+        max-width:none;
+    }
+
+    .footer-logo-bg3{
+        min-width:10rem;
+        max-width:100%;
+    }
+
+    /* forth background div */
+    .forth-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .green-back-bg4{
+        width:100%;
+        height:auto;
+    }
+
+    .big-bang-bg4{
+        width:100%;
+        max-width:25rem;
+    }
+
+    .jetz-bg4{
+        width:100%;
+        max-width:25rem;
+    }
+
+    .footer-logo-bg4{
+        min-width:21rem;
+        max-width:100%;
+    }
+
+     /* fifth background */
+     .fifth-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .pink-background-bg5{
+        width:100%;
+        height:auto;
+    }
+
+    .chiken-burger-bg5{
+        min-width:10rem;
+        max-width:100%;
+    }
+
+    .pirce1-890-bg5 , .footer-logo-bg5{
+        min-width:10rem;
+        max-width:100%;
+    }
+
+    .red-stripe-bg5,.blue-stripe-bg5,.yellow-stripe-bg5,.green-stripe-bg5{
+        width:100%;
+        max-width:11rem;
+    }
+}
+
+
+@media(min-width:430px){
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .background-divs-section{
+        width:100%;
+        height:auto;
+    }
+
+    .first-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .chiken-burger-bck{
+        width:100%;
+        height:auto;
+    }
+
+    .first-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .chiken-burger-bck{
+        width:100%;
+        height:auto;
+    }
+   
+    .chicken-burger,.pirce1-890,.footer-logo{
+        width:100%;
+  
+    }
+
+    .red-stripe,.blue-stripe,.yellow-stripe,.green-stripe{
+        width:100%;
+        max-width:12rem;
+    }
+
+    .big-bang,.text3-Price-890{
+        width:100%;
+        max-width:11rem;
+    }
+
+    .text3-Price-890{
+        width:100%;
+        max-width:10rem;
+    }
+
+    .chicken-paprika{
+        width:100%;
+        max-width:14rem;
+    }
+
+    /* second background div */
+    .second-background-div{
+        width:100%;
+        height:auto;
+    }
+    
+    .blue-back{
+        width:100%;
+        height:auto;
+    }
+
+    .cheese-burger,.footer-logo-bg2{
+        min-width:11rem;
+        max-width:100%;
+    }
+    
+    .big-bang-bg2{
+        width:100%;
+        max-width:11.7rem;
+        top:18%;
+        right:58%;
+    }
+
+    .only-price-bg2{
+        width:100%;
+        max-width:10rem;
+    }
+
+    .red-stripe-bg2,.blue-stripe-bg2,.yellow-stripe-bg2,.green-stripe-bg2{
+        width:100%;
+        max-width:12rem;
+    }
+
+    .double-cheeseburger{
+        width:auto;
+        max-width:none;
+    }
+
+    /* third background */
+
+    .third-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .green-back{
+        width:100%;
+        height:auto;
+    }
+
+    .fish-burger-manu{
+        min-width:10rem;
+        max-width:100%;
+      
+    }
+
+    .big-bang-bg3{
+        width:100%;
+        max-width:11rem;
+    }
+
+    .price3-890{
+        width:100%;
+        max-width:9.6rem;
+    }
+
+    .red-stripe-bg3,.blue-stripe-bg3,.yellow-stripe-bg3,.green-strippe-bg3{
+        width:100%;
+        max-width:12.2rem;
+    }
+
+    .filet-o-fish-text{
+        width:auto;
+        max-width:none;
+    }
+
+    .footer-logo-bg3{
+        min-width:10rem;
+        max-width:100%;
+    }
+
+    
+    /* forth background div */
+    .forth-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .green-back-bg4{
+        width:100%;
+        height:auto;
+    }
+
+    .big-bang-bg4{
+        width:100%;
+        max-width:30rem;
+    }
+
+    .jetz-bg4{
+        width:100%;
+        max-width:30rem;
+    }
+
+    .footer-logo-bg4{
+        min-width:21rem;
+        max-width:100%;
+    }
+
+    /* fifth background */
+    .fifth-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .pink-background-bg5{
+        width:100%;
+        height:auto;
+    }
+
+    .chiken-burger-bg5{
+        min-width:10rem;
+        max-width:100%;
+    }
+
+    .pirce1-890-bg5 , .footer-logo-bg5{
+        min-width:10rem;
+        max-width:100%;
+    }
+
+    .red-stripe-bg5,.blue-stripe-bg5,.yellow-stripe-bg5,.green-stripe-bg5{
+        width:100%;
+        max-width:12.5rem;
+    }
+}
+
+@media(min-width:480px){
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .background-divs-section{
+        width:100%;
+        height:auto;
+    }
+
+    .first-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .chiken-burger-bck{
+        width:100%;
+        height:auto;
+    }
+
+    .first-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .chiken-burger-bck{
+        width:100%;
+        height:auto;
+    }
+   
+    .chicken-burger,.pirce1-890,.footer-logo{
+        width:100%;
+  
+    }
+
+    .red-stripe,.blue-stripe,.yellow-stripe,.green-stripe{
+        width:100%;
+        max-width:13.8rem;
+    }
+
+    .big-bang,.text3-Price-890{
+        width:100%;
+        max-width:12rem;
+    }
+
+    .text3-Price-890{
+        width:100%;
+        max-width:10.5rem;
+    }
+
+    .chicken-paprika{
+        width:100%;
+        max-width:14rem;
+    }
+
+
+    /* second background div */
+    .second-background-div{
+        width:100%;
+        height:auto;
+    }
+    
+    .blue-back{
+        width:100%;
+        height:auto;
+    }
+
+    .cheese-burger,.footer-logo-bg2{
+        min-width:11rem;
+        max-width:100%;
+    }
+    
+    .big-bang-bg2{
+        width:100%;
+        max-width:12.5rem;
+        top:18%;
+        right:58%;
+    }
+
+    .only-price-bg2{
+        width:100%;
+        max-width:10.5rem;
+    }
+
+    .red-stripe-bg2,.blue-stripe-bg2,.yellow-stripe-bg2,.green-stripe-bg2{
+        width:100%;
+        max-width:13.5rem;
+    }
+
+    .double-cheeseburger{
+        width:auto;
+        max-width:none;
+    }
+
+    /* third background */
+
+    .third-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .green-back{
+        width:100%;
+        height:auto;
+    }
+
+    .fish-burger-manu{
+        min-width:10rem;
+        max-width:100%;
+      
+    }
+
+    .big-bang-bg3{
+        width:100%;
+        max-width:12.3rem;
+    }
+
+    .price3-890{
+        width:100%;
+        max-width:11rem;
+    }
+
+    .red-stripe-bg3,.blue-stripe-bg3,.yellow-stripe-bg3,.green-strippe-bg3{
+        width:100%;
+        max-width:13.6rem;
+    }
+
+    .filet-o-fish-text{
+        width:auto;
+        max-width:none;
+    }
+
+    .footer-logo-bg3{
+        min-width:10rem;
+        max-width:100%;
+    }
+
+    /* forth background div */
+    .forth-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .green-back-bg4{
+        width:100%;
+        height:auto;
+    }
+
+    .big-bang-bg4{
+        width:auto;
+        max-width:none;
+    }
+
+    .jetz-bg4{
+        width:auto;
+        max-width:none;
+    }
+
+    .footer-logo-bg4{
+        min-width:21rem;
+        max-width:100%;
+    }
+
+    /* fifth background */
+    .fifth-background-div{
+        width:100%;
+        height:auto;
+    }
+
+    .pink-background-bg5{
+        width:100%;
+        height:auto;
+    }
+
+    .chiken-burger-bg5{
+        min-width:10rem;
+        max-width:100%;
+    }
+
+    .pirce1-890-bg5 , .footer-logo-bg5{
+        min-width:10rem;
+        max-width:100%;
+    }
+
+    .red-stripe-bg5,.blue-stripe-bg5,.yellow-stripe-bg5,.green-stripe-bg5{
+        width:100%;
+        max-width:13.8rem;
+    }
+}
+
+
+@media(min-width:500px){
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .background-divs-section{
+        width:500px;
+        height:1000px;
+    }
+
+    .first-background-div{
+        width:500px;
+        height:1000px;
+    }
+
+    .chiken-burger-bck{
+        width:500px;
+        height:1000px;
+    }
+
+    
+    .chicken-burger,.pirce1-890,.footer-logo{
+        width:100%;
+  
+    }
+
+    .red-stripe,.blue-stripe,.yellow-stripe,.green-stripe{
+        width:100%;
+        max-width:none;
+        width:auto;
+        height:auto;
+    }
+
+    .big-bang,.text3-Price-890{
+        width:auto;
+        height:auto;
+        max-width:none;
+    }
+
+    .text3-Price-890{
+        width:auto;
+        max-width:none;
+    }
+
+    .chicken-paprika{
+        width:auto;
+        height:auto;
+        max-width:none;
+    }
+
+    /* second background div */
+    .second-background-div{
+        width:500px;
+        height:1000px;
+    }
+    
+    .blue-back{
+        width:500px;
+        height:1000px;
+    }
+
+    .cheese-burger,.footer-logo-bg2{
+        min-width:none;
+        max-width:none;
+        width:auto;
+        height:auto;
+    }
+    
+    .big-bang-bg2{
+        width:auto;
+        max-width:none;
+        top:18%;
+        right:59%;
+    }
+
+    .only-price-bg2{
+        width:auto;
+        max-width:none;
+    }
+
+    .red-stripe-bg2,.blue-stripe-bg2,.yellow-stripe-bg2,.green-stripe-bg2{
+        width:auto;
+        max-width:none;
+    }
+
+    .double-cheeseburger{
+        width:auto;
+        max-width:none;
+    }
+
+    
+    /* third background */
+
+    .third-background-div{
+        width:500px;
+        height:1000px;
+    }
+
+    .green-back{
+        width:500px;
+        height:1000px;
+    }
+
+    .fish-burger-manu{
+        min-width:none;
+        max-width:none;
+        height:auto;
+        width:auto;
+    }
+
+    .big-bang-bg3{
+        width:auto;
+        height:auto;
+        max-width:noe;
+    }
+
+    .price3-890{
+        width:auto;
+        height:auto;
+        max-width:none;
+    }
+
+    .red-stripe-bg3,.blue-stripe-bg3,.yellow-stripe-bg3,.green-strippe-bg3{
+        width:auto;
+        height:none;
+        max-width:none;
+    }
+
+    .filet-o-fish-text{
+        width:auto;
+        max-width:none;
+    }
+
+    .footer-logo-bg3{
+        min-width:none;
+        max-width:none;
+        height:auto;
+        width:auto;
+    }
+
+    /* forth background div */
+    .forth-background-div{
+        width:500px;
+        height:1000px;
+    }
+
+    .green-back-bg4{
+        width:500px;
+        height:1000px;
+    }
+
+    .big-bang-bg4{
+        width:auto;
+        max-width:none;
+    }
+
+    .jetz-bg4{
+        width:auto;
+        max-width:none;
+    }
+
+    .footer-logo-bg4{
+        min-width:none;
+        max-width:none;
+        width:auto;
+        height:auto;
+    }
+
+    /* fifth background */
+    .fifth-background-div{
+        width:500px;
+        height:1000px;
+    }
+
+    .pink-background-bg5{
+        width:500px;
+        height:1000px;
+    }
+
+    .chiken-burger-bg5{
+        min-width:none;
+        max-width:none;
+        width:auto;
+        height:auto;
+    }
+
+    .pirce1-890-bg5 , .footer-logo-bg5{
+        min-width:none;
+        max-width:none;
+        width:auto;
+        height:auto;
+    }
+
+    .red-stripe-bg5,.blue-stripe-bg5,.yellow-stripe-bg5,.green-stripe-bg5{
+        width:auto;
+        max-width:none;
+    }
+}
